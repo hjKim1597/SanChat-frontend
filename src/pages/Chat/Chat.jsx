@@ -4,7 +4,7 @@ import "./Chat.css"
 function Chat() {
   return (
     <div>
-      <h1>Hello, React!</h1>
+      <h1>Hello, Chat</h1>
       <p>Welcome to JSX.</p>
     </div>
   );

@@ -1,0 +1,50 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  background-color: #ffffff;
+  border-top: 1px solid #eaeaea;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: var(--black);
+}
+
+.footer-item.active {
+  color: #d17b62; /* 메인 아이콘 색상 */
+}
+
+.footer-item .icon {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 4px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.map-icon {
+  background-image: url('/icons/map-icon.svg'); /* 아이콘 경로 설정 */
+}
+
+.community-icon {
+  background-image: url('/icons/community-icon.svg');
+}
+
+.paw-icon {
+  background-image: url('/icons/paw-icon.svg');
+  background-color: #f8ebe3;
+  border-radius: 50%;
+}
+
+.chat-icon {
+  background-image: url('/icons/chat-icon.svg');
+}
+
+.profile-icon {
+  background-image: url('/icons/profile-icon.svg');
+}

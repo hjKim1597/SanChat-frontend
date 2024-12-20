@@ -1,7 +1,7 @@
-import React from "react";
 import "./Map.css"
-import "../../styles/globalStyle.css"; 
+
 function Map() {
+
   return (
     <div>
       <h1>Hello, React!</h1>
