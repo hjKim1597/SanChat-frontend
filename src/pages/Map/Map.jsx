@@ -1,12 +1,23 @@
-import "./Map.css"
+import React, { useEffect, useRef } from 'react';
+import './Map.css';
+
+import ProfileModal from '../User/Profile/ProfileModal';
+import MapAPI from './MapAPI';
+
 
 function Map() {
 
   return (
-    <div>
-      <h1>Hello, React!</h1>
-      <p>Welcome to JSX.</p>
-    </div>
+    <>
+
+      {/* 지도 영역 컴포넌트트 */}
+      <MapAPI/>
+
+      {/* 프로필 모달 컴포넌트 */}
+      {/* <ProfileModal /> */}      
+      
+    
+    </>
   );
 }
 

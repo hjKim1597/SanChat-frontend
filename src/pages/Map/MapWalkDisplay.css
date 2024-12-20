@@ -1,0 +1,33 @@
+@import '../../styles/globalStyles.css';
+
+/*  map-walk-display :: 하단 산책 정보 */
+
+.map-walk-display {
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    border : 1px solid var(--main-color);
+    background-color: var(--sub-color);
+    border-radius: 20px;
+    width: 400px;
+    height: 20px;
+    padding: 5px;
+    z-index: 100;
+}
+
+.map-walk-display-distance, 
+.map-walk-display-time {
+    display: flex;
+    gap: 10px;
+}
+
+.map-walk-display-distance > div:nth-child(1), 
+.map-walk-display-time > div:nth-child(1) {
+    font-weight: bold;
+}
+
+/*   */
+
