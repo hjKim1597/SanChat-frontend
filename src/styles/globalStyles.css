@@ -1,0 +1,20 @@
+/* 전역 CSS 관리하는 파일입니다. */
+
+/* 
+ 전역 CSS 사용 방법
+
+ ex) 
+ div {
+    color : var(--main-color);
+ }
+ */
+
+
+:root {
+    --main-color: #B95C31;
+    --sub-color: #F5EDD8; 
+    --dog-icon-in-color: #BEC2C4;
+    --dog-icon-out-color: #DEDEDE;
+    --font-family: 'Arial, sans-serif';
+}
+
