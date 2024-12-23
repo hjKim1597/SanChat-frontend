@@ -12,12 +12,14 @@ const ChatListPage = lazy(() => import('../pages/Chat/ChatListPage.jsx'));
 const ChatRoomPage = lazy(() => import('../pages/Chat/ChatRoomPage.jsx'));
 
 // 프로필 화면
-const Profile = lazy(() => import('../pages/User/Profile/Profile.jsx'));
+const Profile = lazy(() => import('../pages/User/Profile/ProfileMain.jsx'));
+
+// 커뮤니티 화면
 const CommunityMain = lazy(() => import('../pages/Community/CommunityMain.jsx'));
 const CommunityWrite = lazy(() => import('../pages/Community/CommunityWrite.jsx'));
 const CommunityEdit = lazy(() => import('../pages/Community/CommunityEdit.jsx'));
 const CommunityDetail = lazy(() => import('../pages/Community/CommunityDetail.jsx'));
- 
+
 function AppRouter() {
   
   return (
