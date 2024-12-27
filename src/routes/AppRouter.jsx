@@ -20,6 +20,7 @@ const CommunityWrite = lazy(() => import('../pages/Community/CommunityWrite.jsx'
 const CommunityEdit = lazy(() => import('../pages/Community/CommunityEdit.jsx'));
 const CommunityDetail = lazy(() => import('../pages/Community/CommunityDetail.jsx'));
 
+
 function AppRouter() {
   
   return (
