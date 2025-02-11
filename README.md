@@ -15,6 +15,7 @@
     - 사용자 위치 기반 산책 서비스
     - 실시간 채팅 서비스
     - 커뮤니티 서비스
+- **깃허브 Organization** : https://github.com/SanChatOrg
 <br/>
 
 ## 🤹‍♂️ 팀원
